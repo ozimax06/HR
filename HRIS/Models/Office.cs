@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.Entity;
 
-namespace HRIS
+namespace HR.Models
 {
-
-        class Program
+    public class Office
     {
-        static void Main(string[] args)
-        {
-
-        }
+        public int id { get; set; }
+        public string Office1 { get; set; }
     }
 }

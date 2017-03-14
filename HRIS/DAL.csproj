@@ -52,6 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HRContext.cs" />
+    <Compile Include="Models\AddressContact.cs" />
+    <Compile Include="Models\Bonus.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeType.cs" />
+    <Compile Include="Models\Office.cs" />
+    <Compile Include="Models\Salary.cs" />
+    <Compile Include="Models\Termination.cs" />
+    <Compile Include="Models\TerminationReason.cs" />
+    <Compile Include="Models\TerminationType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
