@@ -11,9 +11,7 @@ namespace HR.Models
         public int id { get; set; }
         public Employee Employee { get; set; }
         public Nullable<System.DateTime> EffectiveDate { get; set; }
-        public Nullable<short> CurrencyID { get; set; }
         public string BonusAmount { get; set; }
-        public string OfficeID { get; set; }
         public Nullable<System.DateTime> DateEnteredHRIS { get; set; }
     }
 }
