@@ -1,5 +1,0 @@
-C:\Users\ondero\Desktop\HR\Repository\bin\Debug\Repository.exe.config
-C:\Users\ondero\Desktop\HR\Repository\bin\Debug\Repository.exe
-C:\Users\ondero\Desktop\HR\Repository\bin\Debug\Repository.pdb
-C:\Users\ondero\Desktop\HR\Repository\obj\Debug\Repository.exe
-C:\Users\ondero\Desktop\HR\Repository\obj\Debug\Repository.pdb
