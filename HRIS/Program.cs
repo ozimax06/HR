@@ -7,6 +7,7 @@ using System.Data.Entity;
 using HR.Models;
 using HRIS;
 using HR;
+using HRIS.Repositories;
 
 namespace HRIS
 {
@@ -15,8 +16,24 @@ namespace HRIS
     {
         static void Main(string[] args)
         {
-            HRContext db = new HRContext();
-            
+            using (var unitOfWork = new UnitOfWork(new HRContext()))
+            {
+                // Example1
+                var emp = unitOfWork.employees.GetActiveEmployees();
+
+                if (true)
+                { }
+
+            }
         }
+
+        /*EmployeeRepository emp = new EmployeeRepository(HRContext);
+
+            var x = emp.GetActiveEmployees();
+
+            if (true)
+            { }
+            
+        }*/
     }
 }
