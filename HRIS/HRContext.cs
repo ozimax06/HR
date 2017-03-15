@@ -27,4 +27,5 @@ namespace HR
         public HRContext() : base("name=DefaultConnection")
         { }
     }
+
 }

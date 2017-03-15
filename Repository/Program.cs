@@ -3,18 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.Entity;
-using HR.Models;
-using HRIS;
 
-namespace HRIS
+namespace Repository
 {
-
-        class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            
+           U 
         }
     }
 }

@@ -28,7 +28,7 @@ namespace HRIS.Migrations
                 .ForeignKey("dbo.Employees", t => t.Employee_id)
                 .Index(t => t.Employee_id);
 
-            Sql("INSERT INTO  AddressContacts VALUES('abc sokagi', 'e-18', 'ankara', '01/12/2014', GetDate(), 'senior employee', 1)");
+            //Sql("INSERT INTO  AddressContacts VALUES('abc sokagi', 'e-18', 'ankara', '01/12/2014', GetDate(), 'senior employee', 1)");
 
             CreateTable(
                 "dbo.Employees",
@@ -71,12 +71,12 @@ namespace HRIS.Migrations
                 .Index(t => t.Employee_id);
 
             
-            Sql("INSERT INTO  Bonus VALUES('01/12/2011', 500, GetDate(), 1)");
+            /*Sql("INSERT INTO  Bonus VALUES('01/12/2011', 500, GetDate(), 1)");
             Sql("INSERT INTO  Bonus VALUES('01/12/2010', 500, GetDate(), 1)");
             Sql("INSERT INTO  Bonus VALUES('01/12/2004', 500, GetDate(), 2)");
             Sql("INSERT INTO  Bonus VALUES('01/12/2001', 7598, GetDate(), 3)");
             Sql("INSERT INTO  Bonus VALUES('01/12/1999', 23423, GetDate(), 6)");
-            Sql("INSERT INTO  Bonus VALUES('01/12/2000', 20000, '02/02/2016', 8)");
+            Sql("INSERT INTO  Bonus VALUES('01/12/2000', 20000, '02/02/2016', 8)");*/
 
 
             CreateTable(
@@ -114,14 +114,14 @@ namespace HRIS.Migrations
                     })
                 .PrimaryKey(t => t.id);
 
-            Sql("INSERT INTO  Offices VALUES('Ankara')");
+           /* Sql("INSERT INTO  Offices VALUES('Ankara')");
             Sql("INSERT INTO  Offices VALUES('Istanbul')");
             Sql("INSERT INTO  Offices VALUES('Izmir')");
             Sql("INSERT INTO  Offices VALUES('Hatay')");
             Sql("INSERT INTO  Offices VALUES('Giresun')");
             Sql("INSERT INTO  Offices VALUES('Kocaeli')");
             Sql("INSERT INTO  Offices VALUES('Trabzon')");
-            Sql("INSERT INTO  Offices VALUES('Antalya')");
+            Sql("INSERT INTO  Offices VALUES('Antalya')");*/
 
             CreateTable(
                 "dbo.Salaries",
@@ -138,7 +138,7 @@ namespace HRIS.Migrations
                 .ForeignKey("dbo.Employees", t => t.Employee_id)
                 .Index(t => t.Employee_id);
 
-            Sql("INSERT INTO  Salaries VALUES('02/02/2004', 4000, 'new salary', GetDate(), 1)");
+            /*Sql("INSERT INTO  Salaries VALUES('02/02/2004', 4000, 'new salary', GetDate(), 1)");
             Sql("INSERT INTO  Salaries VALUES('02/02/2010', 4000, 'salary increase', GetDate(), 1)");
             Sql("INSERT INTO  Salaries VALUES('02/02/2004', 4000, 'new salary', GetDate(), 2)");
             Sql("INSERT INTO  Salaries VALUES('02/02/2004', 4000, 'new salary', GetDate(), 3)");
@@ -148,7 +148,7 @@ namespace HRIS.Migrations
             Sql("INSERT INTO  Salaries VALUES('02/02/2004', 30000, 'new salary', GetDate(), 7)");
             Sql("INSERT INTO  Salaries VALUES('02/02/2004', 200, 'new salary', GetDate(), 8)");
             Sql("INSERT INTO  Salaries VALUES('02/02/2004', 100, 'new salary', GetDate(), 9)");
-            Sql("INSERT INTO  Salaries VALUES('02/02/2004', 440, 'new salary', GetDate(), 10)");
+            Sql("INSERT INTO  Salaries VALUES('02/02/2004', 440, 'new salary', GetDate(), 10)");*/
 
 
             CreateTable(
@@ -160,11 +160,11 @@ namespace HRIS.Migrations
                     })
                 .PrimaryKey(t => t.id);
 
-            Sql("INSERT INTO  TerminationReasons VALUES('Kariyer degisim')");
+            /*Sql("INSERT INTO  TerminationReasons VALUES('Kariyer degisim')");
             Sql("INSERT INTO  TerminationReasons VALUES('Tatminsizliki')");
             Sql("INSERT INTO  TerminationReasons VALUES('Ise son verme')");
             Sql("INSERT INTO  TerminationReasons VALUES('Maas')");
-            Sql("INSERT INTO  TerminationReasons VALUES('Calisma saatleri')");
+            Sql("INSERT INTO  TerminationReasons VALUES('Calisma saatleri')");*/
 
 
             CreateTable(
@@ -202,10 +202,10 @@ namespace HRIS.Migrations
                 .PrimaryKey(t => t.id);
 
 
-            Sql("INSERT INTO  TerminationTypes VALUES('Isden atilma')");
+            /*Sql("INSERT INTO  TerminationTypes VALUES('Isden atilma')");
             Sql("INSERT INTO  TerminationTypes VALUES('Isden cikarilma')");
             Sql("INSERT INTO  TerminationTypes VALUES('Istifa')");
-            Sql("INSERT INTO  TerminationTypes VALUES('Gecici ayrilma')");
+            Sql("INSERT INTO  TerminationTypes VALUES('Gecici ayrilma')");*/
 
         }
         
