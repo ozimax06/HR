@@ -9,4 +9,3 @@ C:\Users\ondero\Desktop\HR\HRIS\obj\Debug\HRIS.exe
 C:\Users\ondero\Desktop\HR\HRIS\obj\Debug\HRIS.pdb
 C:\Users\ondero\Desktop\HR\HRIS\obj\Debug\HRIS.Migrations.InitialModel.resources
 C:\Users\ondero\Desktop\HR\HRIS\obj\Debug\DAL.csproj.GenerateResource.Cache
-C:\Users\ondero\Desktop\HR\HRIS\obj\Debug\DAL.csprojResolveAssemblyReference.cache

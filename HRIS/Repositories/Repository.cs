@@ -25,18 +25,7 @@ namespace HRIS.Repositories
 
         public IEnumerable<TEntity> GetAll()
         {
-
             return Context.Set<TEntity>().ToList();
-        }
-
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
-        {
-            return Context.Set<TEntity>().Where(predicate);
-        }
-
-        public TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate)
-        {
-            return Context.Set<TEntity>().SingleOrDefault(predicate);
         }
 
         public void Add(TEntity entity)
